@@ -3,7 +3,7 @@ PdfInterrogation
 
 A library that allows developers to interrogate a pdf file for testing purposes.
 
-#Sample Syntax
+##Sample Syntax
 Below are some samples of the methods that the interrogator will provide.
 
 ```C#
