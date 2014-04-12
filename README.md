@@ -15,3 +15,10 @@ pdf.Page(1).Contains("Todd Meinershagen");
 pdf.Page(1).Contains(48);
 pdf.Page(1).Contains(48.05);
 pdf.Page(1).Text.StartsWith("Logo");
+```
+
+To install PdfInterrogation, run the following command in the Package Manager Console
+
+```
+PM> Install-Package PdfInterrogation
+```
