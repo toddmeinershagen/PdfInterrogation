@@ -8,6 +8,7 @@ Below are some samples of the methods that the interrogator will provide.
 
 ```C#
 var pdf = new PdfInterrogator(filePath);
+pdf.Exists();
 pdf.IsPdf();
 pdf.IsPdf(1.0);
 pdf.Has(1).Pages;
