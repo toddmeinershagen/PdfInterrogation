@@ -7,7 +7,7 @@ A library that allows developers to interrogate a pdf file for testing purposes.
 Below are some samples of the methods that the interrogator will provide.
 
 ```C#
-var pdf = new PdfInterrogator();
+var pdf = new PdfInterrogator(filePath);
 pdf.IsPdf();
 pdf.IsPdf(1.0);
 pdf.Has(1).Pages;
